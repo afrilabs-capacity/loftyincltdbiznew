@@ -1,0 +1,3 @@
+    RewriteEngine On 
+    RewriteCond %{HTTPS} off 
+    RewriteRule ^(folder1|folder2|folder3) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

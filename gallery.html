@@ -1,0 +1,1394 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<!-- title -->
+	<title>GALLERY | Loftyinc Allied Partners ltd.</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+	<meta name="author" content="ThemeZaa">
+	<!-- description -->
+	<meta name="description" content="LoftyInc is an Innovation development company with vast experience in Business and Project development. At loftyInc, we facilitate impact projects in sub-saharan Africa.">
+	<!-- keywords -->
+	<meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+	<!-- favicon -->
+	<link rel="shortcut icon" href="images/favicon.png">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<!-- animation -->
+	<link rel="stylesheet" href="css/animate.css" />
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<!-- et line icon -->
+	<link rel="stylesheet" href="css/et-line-icons.css" />
+	<!-- font-awesome icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<!-- themify icon -->
+	<link rel="stylesheet" href="css/themify-icons.css">
+	<!-- swiper carousel -->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<!-- justified gallery  -->
+	<link rel="stylesheet" href="css/justified-gallery.min.css">
+	<!-- magnific popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css" />
+	<!-- revolution slider -->
+	<link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+	<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+	<!-- bootsnav -->
+	<link rel="stylesheet" href="css/bootsnav.css">
+	<!-- style -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css" />
+
+    <link rel="stylesheet" type="text/css" href="addons/es-slider/css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="addons/es-slider/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="addons/es-slider/css/elastislide.css" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css' />
+	<!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+<noscript>
+			<style>
+				.es-carousel ul{
+					display:block;
+				}
+			</style>
+		</noscript>
+		<script id="img-wrapper-tmpl" type="text/x-jquery-tmpl">	
+			<div class="rg-image-wrapper">
+				{{if itemsCount > 1}}
+					<div class="rg-image-nav">
+						<a href="#" class="rg-image-nav-prev">Previous Image</a>
+						<a href="#" class="rg-image-nav-next">Next Image</a>
+					</div>
+				{{/if}}
+				<div class="rg-image"></div>
+				<div class="rg-loading"></div>
+				<div class="rg-caption-wrapper">
+					<div class="rg-caption" style="display:none;">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</script>
+
+
+</head>
+<style>
+@import url(&#39;
+ https: //fonts.googleapis.com/css?family=DM+Sans:400,500,700&amp;
+display=swap&#39;
+);
+* {
+	box-sizing: border-box;
+}
+
+/* body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: &#39;
+	DM-sans&#39;
+	,
+	sans-serif;
+}
+
+.header {
+	font-size: 24px;
+	text-align: center;
+} */
+
+.container {
+	/* width: 100%;
+	max-width: 1200px;
+	border-radius: 4px;
+	margin: 0 auto;
+	padding: 40px 0; */
+}
+
+.content_renamed {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	padding: 0 30px;
+}
+
+.wrapper {
+	width: 33.3%;
+	height: 100%;
+	padding: 10px;
+}
+
+.name {
+	position: relative;
+	font-size: 16px;
+	display: inline-block;
+}
+
+.name:after {
+	content: &#39;
+	&#39;
+	;
+	position: absolute;
+	width: calc(100% + 10px);
+	height: 1px;
+	background-color: #000;
+	bottom: -4px;
+	left: 0;
+}
+
+.box {
+	position: relative;
+	max-height: 300px;
+	border-radius: 4px;
+	overflow: hidden;
+	box-shadow: 0 1.4px 1.7px rgba(0, 0, 0, 0.017), 0 3.3px 4px rgba(0, 0, 0, 0.024), 0 6.3px 7.5px rgba(0, 0, 0, 0.03), 0 11.2px 13.4px rgba(0, 0, 0, 0.036), 0 20.9px 25.1px rgba(0, 0, 0, 0.043), 0 50px 60px rgba(0, 0, 0, 0.06);
+}
+
+.box .hide {
+	opacity: 0;
+}
+
+.box .frame {
+	position: absolute;
+	border: 1px solid #fff;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box h2,
+.box p {
+	position: absolute;
+	color: #fff;
+	z-index: 2;
+	width: 100%;
+	transition: opacity 0.2s, transform 0.3s;
+}
+
+.box h2 {
+	font-weight: 500;
+	font-size: 22px;
+	margin-bottom: 0;
+	letter-spacing: 1px;
+}
+
+.box p {
+	bottom: 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.box:hover {
+	transition: all 0.3s ease-in-out;
+}
+
+.box:hover:before {
+	transition: all 0.3s ease-in-out;
+}
+
+.box img {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.box img:hover {
+	transition: all 0.3s ease-in-out;
+}
+
+.box img:after {
+	content: &#39;
+	&#39;
+	;
+	position: absolute;
+	background-color: rgba(0, 0, 0, .6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+
+.box img:hover {
+	transition: all 0.3s ease-in-out;
+}
+
+.zoom-in h2 {
+	top: 50%;
+	transform: translatey(-50%);
+	text-align: center;
+	margin: 0;
+}
+
+.zoom-in p {
+	text-align: center;
+	top: calc(50% + 40px);
+	transition: all 0.3s ease;
+	transform: scale(1.8);
+	opacity: 0;
+}
+
+.zoom-in:hover img {
+	transform: scale(1.1);
+	filter: grayscale(100%);
+}
+
+.zoom-in:hover p {
+	transform: scale(1);
+	transition: all 0.3s ease;
+	opacity: 1;
+}
+
+.w-content .frame {
+	width: calc(100% - 100px);
+	height: calc(100% - 100px);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-color: transparent;
+}
+
+.w-content h2 {
+	margin-top: 0;
+	top: 50%;
+	transform: translatey(-50%);
+	text-align: center;
+	letter-spacing: 1px;
+}
+
+.w-content p {
+	transform: translate3d(0, -10px, 0);
+}
+
+.w-content:hover {
+	opacity: 0.8;
+}
+
+.w-content:hover .frame {
+	border-color: #fff;
+	transition: color 0.3s ease-in-out, all 0.3s ease-in-out;
+	width: calc(100% - 20px);
+	height: calc(100% - 20px);
+}
+
+.postcard h2 {
+	top: 50%;
+	text-align: left;
+	transform: translate3d(50px, 20px, 0);
+}
+
+.postcard p {
+	transform: translate3d(40px, 60px, 0);
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.postcard:hover h2 {
+	transform: translate3d(20px, 20px, 0);
+}
+
+.postcard:hover p {
+	opacity: 1;
+}
+
+.postcard:hover img {
+	filter: opacity(0.7);
+	transform: translate3d(-30px, 0, 0);
+}
+
+.blury-card .frame {
+	/* width: calc(100% - 40px);
+	 height: calc(100% - 40px);
+	 opacity: 0; */
+	transition: all 0.3s ease-in-out;
+	width: calc(100% - 120px);
+	height: calc(100% - 120px);
+	opacity: 1;
+}
+
+.blury-card h2,
+.blury-card p {
+	text-align: center;
+	top: 50%;
+	transform: translatey(-50%);
+	margin: 0;
+	z-index: 3;
+}
+
+.blury-card p {
+	transform: translatey(30px);
+	letter-spacing: 3px;
+}
+
+.blury-card span {
+	font-size: 24px;
+}
+
+.blury-card:before {
+	content: &#39;
+	&#39;
+	;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #008e6b;
+	z-index: 1;
+	left: 0;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.blury-card img {
+	z-index: 2;
+}
+
+.blury-card:hover .frame {
+	width: calc(100% - 120px);
+	height: calc(100% - 120px);
+	opacity: 1;
+}
+
+.blury-card:hover img {
+	opacity: 0.7;
+}
+
+.blury-card:hover:before {
+	opacity: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.vintage h2 {
+	top: 50%;
+	transform: translate3d(0, 60px, 0);
+	text-align: center;
+}
+
+.vintage p {
+	opacity: 0;
+	bottom: 0;
+	transform: translate3d(0, -10px, 0);
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.vintage:before {
+	content: &#39;
+	&#39;
+	;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+	z-index: 2;
+	bottom: -100%;
+	left: 0;
+}
+
+.vintage:hover:before {
+	bottom: 0;
+}
+
+.vintage:hover h2 {
+	bottom: 40px;
+	transform: translate3d(0, 20px, 0);
+}
+
+.vintage:hover p {
+	opacity: 1;
+	transform: translate3d(0, -30px, 0);
+}
+
+.zoom-out .frame {
+	width: calc(100% - 100px);
+	height: calc(100% - 100px);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: calc(100% - 40px);
+	height: calc(100% - 40px);
+}
+
+.zoom-out h2 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-left: 10px;
+	letter-spacing: 1px;
+}
+
+.zoom-out span {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+.zoom-out p {
+	max-width: 120px;
+	text-align: right;
+	margin: 10px;
+	right: 0;
+}
+
+.zoom-out img {
+	transform: scale(1.1);
+}
+
+.zoom-out:hover img {
+	transform: scale(1);
+	filter: contrast(70%);
+}
+
+@media screen and (max-width: 880px) {
+	.wrapper {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	.wrapper {
+		width: 100%;
+	}
+}
+</style>
+
+<body>
+	<!-- start header -->
+	<header>
+		<!-- start navigation -->
+		<nav class="navbar navbar-default bootsnav bg-white navbar-top nav-box-width header-light">
+			<div class="container-fluid nav-header-container">
+				<div class="row">
+					<!-- start logo -->
+					<div class="col-md-2 col-xs-5">
+						<a href="index.html" title="Lofty" class="logo"><img src="images/clients/logo.png" data-rjs="images/clients/logo.png" class="logo-dark default" alt="Lofty"><img src="images/clients/logo.png" data-rjs="images/clients/logo.png" alt="Lofty" class="logo-light"></a>
+					</div>
+					<!-- end logo -->
+					<div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
+						<button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1"> <span class="sr-only">toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+						<div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+							<ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+								<!-- start menu item -->
+								<li class="dropdown megamenu-fw"> <a href="index.html">Home</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="about.html">About</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="services.html">Services</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="portfolio.html">Portfolio</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="gallery.html">Gallery</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="blog.html">News</a> </li>
+								<li class="dropdown megamenu-fw"> <a href="contact.html">Contact</a> </li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-2 col-xs-5 width-auto">
+						<div class="header-searchbar"> <a href="LAPL-Profile-Web.pdf" target="_blank" title="Download Company Profile.pdf" target="_blank"><i class="fas fa-book" aria-hidden="true" style="color: black"></i></a>
+							<!--<a href="#search-header" class="header-search-form text-white"><i class="fas fa-search search-button"></i></a>-->
+							<!-- search input-->
+							<!--<form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
+                                    <div class="search-form position-relative">
+                                        <button type="submit" class="fas fa-search close-search search-button"></button>
+                                        <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="on">
+                                    </div>
+                                </form>-->
+						</div>
+						<div class="header-social-icon xs-display-none"> <a href="https://www.facebook.com/loftyinc" target="_blank" title="Facebook" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> <a href="https://twitter.com/_LoftyInc_" target="_blank" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a> <a href="https://www.linkedin.com/company/loftyinc-allied-partners-limited/" target="_blank" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a> <a class="linkedin text-white" href="https://www.instagram.com/lofty_inc/" target="_blank" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a> </div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- end navigation -->
+	</header>
+	<!-- end header -->
+	<!-- star page title section -->
+	<section class="wow fadeIn cover-background background-position-centre top-space" style="background-image:url('images/gallery/gallery-bg.jpg');">
+		<div class="opacity-medium bg-extra-dark-gray"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12 display-table page-title-large">
+					<div class="display-table-cell vertical-align-middle text-center">
+						<!-- start sub title --><span class="display-block text-white opacity6 margin-10px-bottom alt-font">Stories In Pictures</span>
+						<!-- end sub title -->
+						<!-- start page title -->
+						<h1 class="alt-font text-white font-weight-600 no-margin-bottom">Our Gallery</h1>
+						<!-- end page title -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- end page title section -->
+	<!-- start image gallery style 01 section -->
+	<section class="wow fadeIn">
+		<div class="container">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 center-col margin-5-bottom text-center last-paragraph-no-margin">
+						<div class="alt-font text-deep-pink margin-5px-bottom text-uppercase text-small">A picture is worth a thousand words</div>
+						<h5 class="alt-font text-white text-extra-dark-gray font-weight-600">Influencing Lives Of Aspiring African Businesses &amp; Entrepreneurs</h5>
+						<!-- <p class="center-col display-inline-block">Over the years LoftyInc has worked across infrastructure, energy and social impact sectors (education, healthcare and agriculture) where it leverages technology, global partnerships & best-in-class processes.</p> -->
+					</div>
+				</div>
+			</div>
+			<!--modals-->
+
+
+			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">12TH ANNIVERSARY</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-1">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/01.jpg" data-large="images/gallery/12TH_ANNIVERSARY/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/02.jpg" data-large="images/gallery/12TH_ANNIVERSARY/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/03.jpg" data-large="images/gallery/12TH_ANNIVERSARY/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/04.jpg" data-large="images/gallery/12TH_ANNIVERSARY/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/05.jpg" data-large="images/gallery/12TH_ANNIVERSARY/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/06.jpg" data-large="images/gallery/12TH_ANNIVERSARY/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/07.jpg" data-large="images/gallery/12TH_ANNIVERSARY/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/08.jpg" data-large="images/gallery/12TH_ANNIVERSARY/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/09.jpg" data-large="images/gallery/12TH_ANNIVERSARY/09.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/10.jpg" data-large="images/gallery/12TH_ANNIVERSARY/11.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/11.jpg" data-large="images/gallery/12TH_ANNIVERSARY/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/12.jpg" data-large="images/gallery/12TH_ANNIVERSARY/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/13.jpg" data-large="images/gallery/12TH_ANNIVERSARY/14.jpg" alt="image13" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/15.jpg" data-large="images/gallery/12TH_ANNIVERSARY/15.jpg" alt="image14" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/12TH_ANNIVERSARY/16.jpg" data-large="images/gallery/12TH_ANNIVERSARY/16.jpg" alt="image15" data-description="" /></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+
+            <!-- The Modal -->
+			<div class="modal bg-black" id="myModal1">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">2021 DINNER</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-2">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/01.jpg" data-large="images/gallery/2021_DINNER/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/02.jpg" data-large="images/gallery/2021_DINNER/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/03.jpg" data-large="images/gallery/2021_DINNER/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/04.jpg" data-large="images/gallery/2021_DINNER/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/05.jpg" data-large="images/gallery/2021_DINNER/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/06.jpg" data-large="images/gallery/2021_DINNER/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/07.jpg" data-large="images/gallery/2021_DINNER/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/08.jpg" data-large="images/gallery/2021_DINNER/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/09.jpg" data-large="images/gallery/2021_DINNER/09.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/10.jpg" data-large="images/gallery/2021_DINNER/11.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/11.jpg" data-large="images/gallery/2021_DINNER/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/12.jpg" data-large="images/gallery/2021_DINNER/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/2021_DINNER/13.jpg" data-large="images/gallery/2021_DINNER/14.jpg" alt="image13" data-description="" /></a></li>
+								
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+
+            			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal2">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">AFRILABS VERTICAL DINNER</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-3">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+										<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/01.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/02.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/03.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/04.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/05.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/06.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/AFRILABS_VERTICAL_DINNER/07.jpg" data-large="images/gallery/AFRILABS_VERTICAL_DINNER/07.jpg" alt="image07" data-description="" /></a></li>
+							
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+            			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal3">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">BIRTHDAYS</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-4">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+										<li><a href="#"><img src="images/gallery/BIRTHDAYS/01.jpg" data-large="images/gallery/BIRTHDAYS/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/02.jpg" data-large="images/gallery/BIRTHDAYS/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/03.jpg" data-large="images/gallery/BIRTHDAYS/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/04.jpg" data-large="images/gallery/BIRTHDAYS/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/05.jpg" data-large="images/gallery/BIRTHDAYS/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/06.jpg" data-large="images/gallery/BIRTHDAYS/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/07.jpg" data-large="images/gallery/BIRTHDAYS/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/08.jpg" data-large="images/gallery/BIRTHDAYS/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/09.jpg" data-large="images/gallery/BIRTHDAYS/09.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/10.jpg" data-large="images/gallery/BIRTHDAYS/11.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/11.jpg" data-large="images/gallery/BIRTHDAYS/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/12.jpg" data-large="images/gallery/BIRTHDAYS/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/13.jpg" data-large="images/gallery/BIRTHDAYS/14.jpg" alt="image13" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/15.jpg" data-large="images/gallery/BIRTHDAYS/15.jpg" alt="image14" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/16.jpg" data-large="images/gallery/BIRTHDAYS/16.jpg" alt="image15" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/BIRTHDAYS/16.jpg" data-large="images/gallery/BIRTHDAYS/16.jpg" alt="image15" data-description="" /></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+            			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal4">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">OFFICE PICTURES</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-5">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+										<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/01.jpg" data-large="images/gallery/OFFICE_PICTURES/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/02.jpg" data-large="images/gallery/OFFICE_PICTURES/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/03.jpg" data-large="images/gallery/OFFICE_PICTURES/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/04.jpg" data-large="images/gallery/OFFICE_PICTURES/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/05.jpg" data-large="images/gallery/OFFICE_PICTURES/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/06.jpg" data-large="images/gallery/OFFICE_PICTURES/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/07.jpg" data-large="images/gallery/OFFICE_PICTURES/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/08.jpg" data-large="images/gallery/OFFICE_PICTURES/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/09.jpg" data-large="images/gallery/OFFICE_PICTURES/09.jpg" alt="image09" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/10.jpg" data-large="images/gallery/OFFICE_PICTURES/11.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/11.jpg" data-large="images/gallery/OFFICE_PICTURES/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/12.jpg" data-large="images/gallery/OFFICE_PICTURES/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/13.jpg" data-large="images/gallery/OFFICE_PICTURES/14.jpg" alt="image13" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/15.jpg" data-large="images/gallery/OFFICE_PICTURES/15.jpg" alt="image14" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/16.jpg" data-large="images/gallery/OFFICE_PICTURES/16.jpg" alt="image15" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/OFFICE_PICTURES/16.jpg" data-large="images/gallery/OFFICE_PICTURES/16.jpg" alt="image15" data-description="" /></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+            			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal5">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">RETREAT</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-6">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+										<li><a href="#"><img src="images/gallery/RETREAT/01.jpg" data-large="images/gallery/RETREAT/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/RETREAT/02.jpg" data-large="images/gallery/RETREAT/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/RETREAT/03.jpg" data-large="images/gallery/RETREAT/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/RETREAT/04.jpg" data-large="images/gallery/RETREAT/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/RETREAT/05.jpg" data-large="images/gallery/RETREAT/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/RETREAT/06.jpg" data-large="images/gallery/RETREAT/06.jpg" alt="image06" data-description="" /></a></li>
+									
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+            			<!-- The Modal -->
+			<div class="modal bg-black" id="myModal6">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content bg-black">
+						<!-- Modal Header -->
+						<div class="modal-header">
+							<h4 class="modal-title">TEAM BONDING</h4>
+							<button type="button" class="close" style="color:white!important;" data-dismiss="modal">&times;</button>
+						</div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                <!--content-->
+                <div class="content bg-black">
+				<div id="rg-gallery" class="rg-gallery my-gallery-item my-gallery-item-7">
+					<div class="rg-thumbs">
+						<!-- Elastislide Carousel Thumbnail Viewer -->
+						<div class="es-carousel-wrapper">
+							<div class="es-nav">
+								<span class="es-nav-prev">Previous</span>
+								<span class="es-nav-next">Next</span>
+							</div>
+							<div class="es-carousel">
+								<ul>
+										<li><a href="#"><img src="images/gallery/TEAM_BONDING/01.jpg" data-large="images/gallery/TEAM_BONDING/01.jpg" alt="image01" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/02.jpg" data-large="images/gallery/TEAM_BONDING/02.jpg" alt="image02" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/03.jpg" data-large="images/gallery/TEAM_BONDING/03.jpg" alt="image03" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/04.jpg" data-large="images/gallery/TEAM_BONDING/04.jpg" alt="image04" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/05.jpg" data-large="images/gallery/TEAM_BONDING/05.jpg" alt="image05" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/06.jpg" data-large="images/gallery/TEAM_BONDING/06.jpg" alt="image06" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/07.jpg" data-large="images/gallery/TEAM_BONDING/07.jpg" alt="image07" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/08.jpg" data-large="images/gallery/TEAM_BONDING/08.jpg" alt="image08" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/09.jpg" data-large="images/gallery/TEAM_BONDING/09.jpg" alt="image09" data-description="" /></a></li>
+									<!-- <li><a href="#"><img src="images/gallery/TEAM_BONDING/10.jpg" data-large="images/gallery/TEAM_BONDING/11.jpg" alt="image10" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/11.jpg" data-large="images/gallery/TEAM_BONDING/11.jpg" alt="image11" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/12.jpg" data-large="images/gallery/TEAM_BONDING/12.jpg" alt="image12" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/13.jpg" data-large="images/gallery/TEAM_BONDING/14.jpg" alt="image13" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/15.jpg" data-large="images/gallery/TEAM_BONDING/15.jpg" alt="image14" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/16.jpg" data-large="images/gallery/TEAM_BONDING/16.jpg" alt="image15" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/17.jpg" data-large="images/gallery/TEAM_BONDING/17.jpg" alt="image15" data-description="" /></a></li> -->
+									<!-- <li><a href="#"><img src="images/gallery/TEAM_BONDING/18.jpg" data-large="images/gallery/TEAM_BONDING/18.jpg" alt="image15" data-description="" /></a></li> -->
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/19.jpg" data-large="images/gallery/TEAM_BONDING/19.jpg" alt="image15" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/20.jpg" data-large="images/gallery/TEAM_BONDING/20.jpg" alt="image15" data-description="" /></a></li>
+									<li><a href="#"><img src="images/gallery/TEAM_BONDING/21.jpg" data-large="images/gallery/TEAM_BONDING/21.jpg" alt="image15" data-description="" /></a></li>
+									
+								</ul>
+							</div>
+						</div>
+						<!-- End Elastislide Carousel Thumbnail Viewer -->
+					</div><!-- rg-thumbs -->
+				</div><!-- rg-gallery -->
+			</div><!-- content -->	
+							<!--content-->
+						</div>
+						<!-- Modal footer -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- The Modal -->
+
+
+          
+
+			<!--modals-->
+
+
+
+			<!-- new gallery-->
+			<div class="container">
+				<!-- <p class="header">Image Hover Effects</p> -->
+				<div class="content_renamed">
+					<div class="wrapper myModalOpenAction1" data-toggle="modal" data-target="#myModal" style="cursor: pointer;">
+						<div class="box w-content"> <img src="images/gallery/12TH_ANNIVERSARY/02.jpg" alt="EMMYLOU">
+							<h2>12TH ANNIVERSARY</h2>
+							<!-- <p>I'll be your Emmylou and I'll be your June</p> -->
+						</div>
+					</div>
+					<div class="wrapper myModalOpenAction2" data-toggle="modal" data-target="#myModal1" style="cursor: pointer;">
+						<div class="box w-content"> <img src="images/gallery/2021_DINNER/01.jpg" alt="Jenny of Oldstones">
+							<div class="frame">
+								<h2>2021 DINNER</h2> </div>
+						</div>
+					</div>
+					<div class="wrapper myModalOpenAction3" data-toggle="modal" data-target="#myModal2" style="cursor: pointer;">
+						<div class="box blury-card zoom-out"> <img src="images/gallery/AFRILABS_VERTICAL_DINNER/03.jpg" alt="BOX">
+							<h2>AFRILABS VERTICAL DINNER</h2> </div>
+					</div>
+					<div class="wrapper myModalOpenAction4" data-toggle="modal" data-target="#myModal3" style="cursor: pointer;">
+						<div class="box zoom-in"> <img src="images/gallery/BIRTHDAYS/17.jpg" alt="Postcards From Italy">
+							<h2>BIRTHDAYS</h2>
+							<!-- <p>And I will love to see that day</p> -->
+						</div>
+					</div>
+					<div class="wrapper myModalOpenAction5" data-toggle="modal" data-target="#myModal4" style="cursor: pointer;">
+						<div class="box blury-card zoom-out"> <img src="images/gallery/OFFICE_PICTURES/03.jpg" alt="Blue Ridge Mountains">
+							<div class="frame">
+								<h2>OFFICE PICTURES</h2>
+								<!-- <p>MOUNTAINS</p> -->
+							</div>
+						</div>
+					</div>
+					<div class="wrapper myModalOpenAction6" data-toggle="modal" data-target="#myModal5" style="cursor: pointer;">
+						<div class="box zoom-out"> <img src="images/gallery/RETREAT/05.jpg" alt="Melody Noir">
+							<div class="frame">
+								<h2>RETREAT <span></span></h2>
+								<!-- <p>Tell me where the wind is blowing 'cause that's where the music's going</p> -->
+							</div>
+						</div>
+					</div>
+					<div class="wrapper myModalOpenAction7" data-toggle="modal" data-target="#myModal6" style="cursor: pointer;">
+						<div class="box zoom-out"> <img src="images/gallery/TEAM_BONDING/04.jpg" alt="Melody Noir">
+							<div class="frame">
+								<h2>TEAM BONDING <span></span></h2>
+								<!-- <p>Tell me where the wind is blowing 'cause that's where the music's going</p> -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+	
+		</div>
+	</section>
+	<!-- end image gallery style 01 section -->
+	<!-- start footer -->
+	<footer class="footer-standard-dark bg-extra-dark-gray">
+		<div class="footer-widget-area padding-five-tb xs-padding-30px-tb">
+			<div class="container">
+				<div class="row equalize xs-equalize-auto">
+					<div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray sm-no-border-right sm-margin-30px-bottom xs-text-center">
+						<!-- start logo -->
+						<a href="index.html" class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="images/logo.png" data-rjs="images/clients/logo.png" alt="Pofo"></a>
+						<!-- end logo -->
+						<p class="text-small width-95 xs-width-100" style="margin: 0px; padding-bottom: 15px;">LoftyInc is an Innovation development company with vast experience in Business and Project development.</p>
+						<!-- start social media -->
+						<div class="social-icon-style-8 display-inline-block vertical-align-middle">
+							<ul class="small-icon no-margin-bottom">
+								<li><a class="facebook text-white" href="https://www.facebook.com/loftyinc" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+								<li><a class="twitter text-white" href="https://twitter.com/_LoftyInc_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+								<li><a class="instagram text-white" href="https://www.instagram.com/lofty_inc/" target="_blank"><i class="fab fa-instagram no-margin-right" aria-hidden="true"></i></a></li>
+								<li><a class="linkedin text-white" href="https://www.linkedin.com/company/loftyinc-allied-partners-limited/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+						<!-- end social media -->
+					</div>
+					<!-- start additional links -->
+					<div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+						<div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Navigation Links</div>
+						<ul class="list-unstyled">
+							<li><a class="text-small" href="index.html">Home</a></li>
+							<li><a class="text-small" href="about.html">About Us</a></li>
+							<li><a class="text-small" href="services.html">Our Services</a></li>
+							<li><a class="text-small" href="portfolio.html">Recent Projects</a></li>
+							<li><a class="text-small" href="blog.html">Latest News</a></li>
+							<li><a class="text-small" href="blog.html">Gallery</a></li>
+							<li><a class="text-small" href="contact.html">Contact Us</a></li>
+						</ul>
+					</div>
+					<!-- end additional links -->
+					<!-- start additional links -->
+					<div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+						<div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Additional Links</div>
+						<ul class="list-unstyled">
+							<li><a class="text-small" href="#">Careers</a></li>
+							<li><a class="text-small" href="LAPL-Profile-Web.pdf" target="_blank">Download Our Profile</a></li>
+							<li><a class="text-small" href="https://medium.com/search?q=loftyinc" target="_blank">Visit Us on Medium®</a></li>
+							<li><a class="text-small" href="https://www.youtube.com/channel/UCq3zEfcz9IDpVd_5fcDMFMw" target="_blank">Watch Our Events On YouTube®</a></li>
+							<li><a class="text-small" href="https://loftyinccapital.vc/" target="_blank">LoftyInc Capital Management</a></li>
+							<li><a class="text-small" href="http://vertmance.com/" target="_blank">Vertmance (Group) Resources</a></li>
+							<li><a class="text-small" href="http://wennovationhub.org/" target="_blank">Wennovation Hub</a></li>
+						</ul>
+					</div>
+					<!-- end additional links -->
+					<!-- start contact information -->
+					<div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right  xs-margin-30px-bottom xs-text-center">
+						<div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Contact Info</div>
+						<p class="text-small display-block margin-15px-bottom width-80 xs-center-col"><strong>LAGOS: </strong>2A Louis Solomon Close, Off Ahmadu Bello Way, Victoria Island. </p>
+						<p class="text-small display-block margin-15px-bottom width-80 xs-center-col"><strong>ABUJA: </strong>LoftyInc Allied Partners Ltd,  
+Lofty Heights @ The Epicenter, No 1 (Plot 480) Zilly Aggrey Drive,
+Off Rotimi Amaechi Way Cadestral Zone C01,
+Karmo - Abuja, FCT
+.</p>
+						<div class="text-small">Email: <a href="mailto:info@loftyincltd.biz">info@loftyincltd.biz</a></div>
+						<div class="text-small">Phone: <a href="tel:+23409090002647" target="_blank">0909 000 2647</a></div>
+						<!---<a href="contact-us-modern.html" class="text-small text-uppercase text-decoration-underline">View Direction</a>--></div>
+					<!-- end contact information -->
+					<!-- start instagram --
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left xs-text-center">
+                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600">Instagram portfolio</div>
+                            <div class="instagram-follow-api">
+                                <ul id="instaFeed-footer"></ul>
+                            </div>
+                        </div>
+                        <!-- end instagram --></div>
+			</div>
+		</div>
+		<div class="bg-dark-footer padding-50px-tb text-center xs-padding-30px-tb">
+			<div class="container">
+				<div class="row">
+					<!-- start copyright -->
+					<div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">&copy;
+						<script>
+						document.write(new Date().getFullYear());
+						</script> All Rights Reserved ||<a href="http://estechnologies.ng" target="_blank" class="text-dark-gray"> Loftyinc Allied Partners ltd. </a></div>
+					<div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center"> <a href="javascript:void(0);" class="text-dark-gray">Terms and Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0);" class="text-dark-gray">Privacy Policy</a> </div>
+					<!-- end copyright -->
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- end footer -->
+	<!-- start scroll to top --><a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+	<!-- end scroll to top  -->
+	<!-- javascript libraries -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.js"></script>
+	<script type="text/javascript" src="js/jquery.appear.js"></script>
+	<!-- menu navigation -->
+	<script type="text/javascript" src="js/bootsnav.js"></script>
+	<script type="text/javascript" src="js/jquery.nav.js"></script>
+	<!-- animation -->
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<!-- page scroll -->
+	<script type="text/javascript" src="js/page-scroll.js"></script>
+	<!-- swiper carousel -->
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+	<!-- counter -->
+	<script type="text/javascript" src="js/jquery.count-to.js"></script>
+	<!-- parallax -->
+	<script type="text/javascript" src="js/jquery.stellar.js"></script>
+	<!-- magnific popup -->
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<!-- portfolio with shorting tab -->
+	<script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+	<!-- images loaded -->
+	<script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- pull menu -->
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/hamburger-menu.js"></script>
+	<!-- counter  -->
+	<script type="text/javascript" src="js/counter.js"></script>
+	<!-- fit video  -->
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+	<!-- equalize -->
+	<script type="text/javascript" src="js/equalize.min.js"></script>
+	<!-- skill bars  -->
+	<script type="text/javascript" src="js/skill.bars.jquery.js"></script>
+	<!-- justified gallery  -->
+	<script type="text/javascript" src="js/justified-gallery.min.js"></script>
+	<!--pie chart-->
+	<script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+	<!-- instagram -->
+	<script type="text/javascript" src="js/instafeed.min.js"></script>
+	<!-- retina -->
+	<script type="text/javascript" src="js/retina.min.js"></script>
+	<!-- revolution -->
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+	<!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+
+
+    	<script type="text/javascript" src="addons/es-slider/js/jquery.tmpl.min.js"></script>
+		<script type="text/javascript" src="addons/es-slider/js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="addons/es-slider/js/jquery.elastislide.js"></script>
+		<script type="text/javascript" src="addons/es-slider/js/gallery.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <script>
+        //    $('.rg-gallery').hide(); 
+        $('.myModalOpenAction1').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-1').addClass('rg-gallery')
+            setupSlider()
+        })   
+
+         $('.myModalOpenAction2').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-2').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+          $('.myModalOpenAction3').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-3').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+          $('.myModalOpenAction4').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-4').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+          $('.myModalOpenAction5').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-5').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+          $('.myModalOpenAction6').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-6').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+             $('.myModalOpenAction7').on('click',function(){
+            $('.my-gallery-item').removeClass('rg-gallery')
+            $('.my-gallery-item-7').addClass('rg-gallery')
+            setupSlider()
+        }) 
+
+         
+    function setupSlider(){
+   // gallery container
+   var $rgGallery = $(".rg-gallery"),
+    // carousel container
+    $esCarousel = $rgGallery.find("div.es-carousel-wrapper"),
+    // the carousel items
+    $items = $esCarousel.find("ul > li"),
+    // total number of items
+    itemsCount = $items.length;
+
+  Gallery = (function () {
+    // index of the current item
+    var current = 0,
+      // mode : carousel || fullview
+      mode = "carousel",
+      // control if one image is being loaded
+      anim = false,
+      init = function () {
+        // (not necessary) preloading the images here...
+        $items
+          .add(
+            '<img src="images/ajax-loader.gif"/><img src="images/black.png"/>'
+          )
+          .imagesLoaded(function () {
+            // add options
+            _addViewModes();
+
+            // add large image wrapper
+            _addImageWrapper();
+
+            // show first image
+            _showImage($items.eq(current));
+          });
+
+        // initialize the carousel
+        if (mode === "carousel") _initCarousel();
+      },
+      _initCarousel = function () {
+        // we are using the elastislide plugin:
+        // http://tympanus.net/codrops/2011/09/12/elastislide-responsive-carousel/
+        $esCarousel.show().elastislide({
+          imageW: 65,
+          onClick: function ($item) {
+            if (anim) return false;
+            anim = true;
+            // on click show image
+            _showImage($item);
+            // change current
+            current = $item.index();
+          },
+        });
+
+        // set elastislide's current to current
+        $esCarousel.elastislide("setCurrent", current);
+      },
+      _addViewModes = function () {
+        // top right buttons: hide / show carousel
+
+        var $viewfull = $('<a href="#" class="rg-view-full"></a>'),
+          $viewthumbs = $(
+            '<a href="#" class="rg-view-thumbs rg-view-selected"></a>'
+          );
+
+        $rgGallery.prepend(
+          $('<div class="rg-view"/>').append($viewfull).append($viewthumbs)
+        );
+
+        $viewfull.on("click.rgGallery", function (event) {
+          if (mode === "carousel") $esCarousel.elastislide("destroy");
+          $esCarousel.hide();
+          $viewfull.addClass("rg-view-selected");
+          $viewthumbs.removeClass("rg-view-selected");
+          mode = "fullview";
+          return false;
+        });
+
+        $viewthumbs.on("click.rgGallery", function (event) {
+          _initCarousel();
+          $viewthumbs.addClass("rg-view-selected");
+          $viewfull.removeClass("rg-view-selected");
+          mode = "carousel";
+          return false;
+        });
+
+        if (mode === "fullview") $viewfull.trigger("click");
+      },
+      _addImageWrapper = function () {
+        // adds the structure for the large image and the navigation buttons (if total items > 1)
+        // also initializes the navigation events
+
+        $("#img-wrapper-tmpl")
+          .tmpl({ itemsCount: itemsCount })
+          .appendTo($rgGallery);
+
+        if (itemsCount > 1) {
+          // addNavigation
+          var $navPrev = $rgGallery.find("a.rg-image-nav-prev"),
+            $navNext = $rgGallery.find("a.rg-image-nav-next"),
+            $imgWrapper = $rgGallery.find("div.rg-image");
+
+          $navPrev.on("click.rgGallery", function (event) {
+            _navigate("left");
+            return false;
+          });
+
+          $navNext.on("click.rgGallery", function (event) {
+            _navigate("right");
+            return false;
+          });
+
+          // add touchwipe events on the large image wrapper
+          $imgWrapper.touchwipe({
+            wipeLeft: function () {
+              _navigate("right");
+            },
+            wipeRight: function () {
+              _navigate("left");
+            },
+            preventDefaultEvents: false,
+          });
+
+          $(document).on("keyup.rgGallery", function (event) {
+            if (event.keyCode == 39) _navigate("right");
+            else if (event.keyCode == 37) _navigate("left");
+          });
+        }
+      },
+      _navigate = function (dir) {
+        // navigate through the large images
+
+        if (anim) return false;
+        anim = true;
+
+        if (dir === "right") {
+          if (current + 1 >= itemsCount) current = 0;
+          else ++current;
+        } else if (dir === "left") {
+          if (current - 1 < 0) current = itemsCount - 1;
+          else --current;
+        }
+
+        _showImage($items.eq(current));
+      },
+      _showImage = function ($item) {
+        // shows the large image that is associated to the $item
+
+        var $loader = $rgGallery.find("div.rg-loading").show();
+
+        $items.removeClass("selected");
+        $item.addClass("selected");
+
+        var $thumb = $item.find("img"),
+          largesrc = $thumb.data("large"),
+          title = $thumb.data("description");
+
+        $("<img/>")
+          .load(function () {
+            $rgGallery
+              .find("div.rg-image")
+              .empty()
+              .append('<img src="' + largesrc + '"/>');
+
+            if (title)
+              $rgGallery
+                .find("div.rg-caption")
+                .show()
+                .children("p")
+                .empty()
+                .text(title);
+
+            $loader.hide();
+
+            if (mode === "carousel") {
+              $esCarousel.elastislide("reload");
+              $esCarousel.elastislide("setCurrent", current);
+            }
+
+            anim = false;
+          })
+          .attr("src", largesrc);
+      },
+      addItems = function ($new) {
+        $esCarousel.find("ul").append($new);
+        $items = $items.add($($new));
+        itemsCount = $items.length;
+        $esCarousel.elastislide("add", $new);
+      };
+
+    return {
+      init: init,
+      addItems: addItems,
+    };
+  })();
+   Gallery.init()
+        }
+
+        </script>
+</body>
+
+</html>

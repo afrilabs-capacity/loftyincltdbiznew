@@ -1,0 +1,552 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <!-- title -->
+        <title>SERVICES | Loftyinc Allied Partners ltd.</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+        <meta name="author" content="ThemeZaa">
+        <!-- description -->
+        <meta name="description" content="LoftyInc is an Innovation development company with vast experience in Business and Project development. At loftyInc, we facilitate impact projects in sub-saharan Africa.">
+        <!-- keywords -->
+        <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        <!-- animation -->
+        <link rel="stylesheet" href="css/animate.css" />
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <!-- et line icon --> 
+        <link rel="stylesheet" href="css/et-line-icons.css" />
+        <!-- font-awesome icon -->
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <!-- themify icon -->
+        <link rel="stylesheet" href="css/themify-icons.css">
+        <!-- swiper carousel -->
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <!-- justified gallery  -->
+        <link rel="stylesheet" href="css/justified-gallery.min.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+        <!-- revolution slider -->
+        <link rel="stylesheet" type="text/css" href="revolution/css/settings.css" media="screen" />
+        <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+        <!-- bootsnav -->
+        <link rel="stylesheet" href="css/bootsnav.css">
+        <!-- style -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- responsive css -->
+        <link rel="stylesheet" href="css/responsive.css" />
+        <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <!-- start header -->
+        <header>
+            <!-- start navigation -->
+            <nav class="navbar navbar-default bootsnav bg-white navbar-top nav-box-width header-light">
+                <div class="container-fluid nav-header-container">
+                    <div class="row">
+                        <!-- start logo -->
+                        <div class="col-md-2 col-xs-5">
+                            <a href="index.html" title="Lofty" class="logo"><img src="images/clients/logo.png" data-rjs="images/clients/logo.png" class="logo-dark default" alt="Lofty"><img src="images/clients/logo.png" data-rjs="images/clients/logo.png" alt="Lofty" class="logo-light"></a>
+                        </div>
+                        <!-- end logo -->
+                        <div class="col-md-7 col-xs-2 width-auto pull-right accordion-menu xs-no-padding-right">
+                            <button type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+                                <span class="sr-only">toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="navbar-collapse collapse pull-right" id="navbar-collapse-toggle-1">
+                                <ul id="accordion" class="nav navbar-nav navbar-left no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
+                                    <!-- start menu item -->
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="about.html">About</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="services.html">Services</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="gallery.html">Gallery</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="blog.html">News</a>
+                                    </li>
+                                    <li class="dropdown megamenu-fw">
+                                        <a href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-xs-5 width-auto">
+                            <div class="header-searchbar">
+                                <a href="LAPL-Profile-Web.pdf" target="_blank" title="Download Company Profile.pdf" target="_blank"><i class="fas fa-book" aria-hidden="true" style="color: black"></i></a>
+                                <!--<a href="#search-header" class="header-search-form text-white"><i class="fas fa-search search-button"></i></a>-->
+                                <!-- search input-->
+                                <!--<form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
+                                    <div class="search-form position-relative">
+                                        <button type="submit" class="fas fa-search close-search search-button"></button>
+                                        <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="on">
+                                    </div>
+                                </form>-->
+                            </div>
+                            <div class="header-social-icon xs-display-none">
+                                <a href="https://www.facebook.com/loftyinc" target="_blank" title="Facebook" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                                <a href="https://twitter.com/_LoftyInc_" target="_blank" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/company/loftyinc-allied-partners-limited/" target="_blank" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a class="linkedin text-white" href="https://www.instagram.com/lofty_inc/" target="_blank" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- end navigation --> 
+        </header>
+        <!-- end header -->
+        
+        
+        <!-- star page title section -->
+        <section class="wow fadeIn cover-background background-position-top top-space" style="background-image:url('images/services-header.jpg');">
+            <div class="opacity-medium bg-extra-dark-gray"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 display-table page-title-large">
+                        <div class="display-table-cell vertical-align-middle text-center">
+                            <!-- start sub title -->
+                            <span class="display-block text-white opacity6 margin-10px-bottom alt-font">What We Do</span>
+                            <!-- end sub title -->
+                            <!-- start page title -->
+                            <h1 class="alt-font text-white font-weight-600 no-margin-bottom">Our Services</h1>
+                            <!-- end page title -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end page title section -->
+        
+        
+        <!-- start section -->
+        <section class="no-padding-bottom bg-light-gray wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 center-col margin-eight-bottom text-center last-paragraph-no-margin">
+                        <div class="alt-font text-deep-pink margin-10px-bottom text-uppercase text-small">We help our social impact clients harness their existing expertise.</div>
+                        <h5 class="alt-font text-extra-dark-gray font-weight-600">Market Entry, Project Development, Business Expansion Strategy</h5>
+                        <p class="center-col display-inline-block">At LoftyInc we strive to drive thinking from an ‘out of the box’ perspective. Be it market entry, project development, Project Delivery as well as business expansion strategy; as corporate consultants we strive to exceed your expectations.<br><br>
+                        At LoftyInc we believe that making the world a better place means finding solutions that work, and scaling them to maximize progress.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <img src="images/services/services-about.jpg" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end section  -->
+        
+        
+        <!-- start feature box section -->
+        <section class="wow fadeIn" style="padding-bottom: 0px">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                        <div class="alt-font text-medium-gray margin-10px-bottom text-uppercase text-small">We are an innovation and technology company</div>
+                        <h5 class="alt-font text-extra-dark-gray font-weight-600">Innovation is at the heart of everything we do, it drives the impact we make</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/digital-trans.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Digital Transformation &amp; Product Development</a>
+                        <p class="width-95 sm-width-100">Making the world a better place means finding solutions that work, and scaling them to maximize progress. From health to agriculture, and financial inclusion, LoftyInc designs new solutions, systems and strategies to address the needs and aspirations of underserved communities around the globe. We help our social impact clients harness their existing expertise to co-design the products, services, and strategic frameworks that create even greater benefits for the communities they serve.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View E-Commerce Solutions <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>
+                    <!-- end feature box item -->
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.2s">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/project-del.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Project Delivery</a>
+                        <p class="width-95 sm-width-100">We develop, consult and execute projects using best-in class project management methodologies. We deliver quality projects within the schedule of our clients without compromise.
+                        Our work goes beyond single initiatives. We provide the training, mentorship, and support needed to sustain a culture of innovation. By opening up the innovation process, we bring together diverse organizations and stakeholders—including the individuals and communities that will benefit from the work.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View Web Development <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>
+                    <!-- end feature box item -->
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.4s">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/capital-dev.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Capital Management</a>
+                        <p class="width-95 sm-width-100">We contribute to and promote the growth of the impact investment sector by demonstrating that seed investments can be made in an efficient and profitable manner. The types of capital raising transactions we look for include early-stage bets on promising ventures (via our Angel Group,<a href="https://loftyinccapital.vc/" target="_blank"> Afropreneur Angel Syndicate Ltd</a>), venture capital (through our Venture Capital arm, <a href="https://loftyinccapital.vc/" target="_blank">LoftyInc Capital Management</a>) for emerging growth companies, growth capital for more established companies, and leveraged acquisitions and recapitalizations for growth-oriented companies with strong cash flows.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View Marketing Strategy <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>                    
+                    <!-- end feature box item -->
+                </div>
+                <br>
+                <div class="row">
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/biz-dev.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Business Development  &amp;  Business Advisory</a>
+                        <p class="width-95 sm-width-100">At LoftyInc, we have established a team of Business Consultants who have the proven expertise to address the needs of businesses at different stages of development. From Start-Ups to Large institutions, we always aim to help businesses achieve a hitch free access to markets while hand holding investors from the point of entry though to operational phase.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View E-Commerce Solutions <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>
+                    <!-- end feature box item -->
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 xs-margin-30px-bottom wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.2s">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/venture-dev.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Venture Development</a>
+                        <p class="width-95 sm-width-100">LoftyInc is focused on triple bottom line businesses that drive social and environmental impact with innovative, profitable and scale-able models. We provide financing and strategic support for the development of success cases. The venture development component is focused on building sustainable, viable businesses geared towards solving societal problems.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View Web Development <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>
+                    <!-- end feature box item -->
+                    <!-- start feature box item -->
+                    <div class="col-md-4 col-sm-4 col-xs-12 wow fadeInUp last-paragraph-no-margin xs-text-center" data-wow-delay="0.4s">
+                        <div class="margin-ten-bottom overflow-hidden sm-margin-20px-bottom">
+                            <a><img src="images/services/public-sect.jpg" alt=""/></a>
+                        </div>
+                        <a class="alt-font margin-5px-bottom display-block text-extra-dark-gray font-weight-600 text-uppercase text-small">Public Sector Advisory Practice</a>
+                        <p class="width-95 sm-width-100">We assist the Government with fresh ideas and evidence, improving its capacity to deliver on its mandates. We are committed to accelerating change through evidence and innovation.<br>
+                        Our services include: Strategy Implementation, Evidence to Policy, Public policy analysis, Performance Audit, Workforce Capacity Building, and Project(s) Monitoring & Evaluation.</p>
+                        <div class="separator-line-horrizontal-full bg-medium-light-gray margin-20px-tb sm-margin-15px-tb"></div>
+                        <!--<a href="services-modern.html" class="text-uppercase alt-font text-extra-dark-gray font-weight-600 text-extra-small">View Marketing Strategy <i class="fas fa-long-arrow-alt-right margin-5px-left text-deep-pink text-medium position-relative top-2" aria-hidden="true"></i></a>-->
+                    </div>                    
+                    <!-- end feature box item -->
+                </div>
+            </div>
+        </section>
+        <!-- end  feature box section -->
+        
+        
+         <!-- start tab style 03 section -->
+        <section class="wow fadeIn">
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-8 col-xs-12 center-col margin-eight-bottom sm-margin-40px-bottom xs-margin-30px-bottom text-center">
+                        <div class="alt-font text-medium-gray margin-10px-bottom text-uppercase text-small">Unlimited development possibilities</div>
+                        <h5 class="alt-font text-extra-dark-gray font-weight-600">A perfected execution model deployed on all your projects</h5>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 center-col text-center no-padding tab-style1" id="animated-tab2">
+                        <!-- start tab navigation -->
+                        <ul class="nav nav-tabs margin-50px-bottom xs-no-margin-bottom"> 
+                            <li class="nav active"><a href="#tab6_sec1" data-toggle="tab" class="xs-min-height-inherit xs-no-padding"><span><i class="icon-chat icon-medium text-medium-gray margin-10px-bottom display-block"></i></span><span class="alt-font text-medium-gray text-uppercase text-small">01. Discussion</span></a></li>
+                            <li class="nav"><a href="#tab6_sec2" data-toggle="tab" class="xs-min-height-inherit xs-no-padding"><span><i class="icon-tools icon-medium text-medium-gray margin-10px-bottom display-block"></i></span><span class="alt-font text-medium-gray text-uppercase text-small">02. Strategy</span></a></li>
+                            <li class="nav"><a href="#tab6_sec3" data-toggle="tab" class="xs-min-height-inherit xs-no-padding"><span><i class="icon-megaphone icon-medium text-medium-gray margin-10px-bottom display-block"></i></span><span class="alt-font text-medium-gray text-uppercase text-small">03. Execution</span></a></li>
+                            <li class="nav"><a href="#tab6_sec4" data-toggle="tab" class="xs-min-height-inherit xs-no-padding"><span><i class="icon-heart icon-medium text-medium-gray margin-10px-bottom display-block"></i></span><span class="alt-font text-medium-gray text-uppercase text-small">04. Happy Client</span></a></li>
+                        </ul>
+                        <!-- end tab navigation -->
+                        <!-- start tab content -->
+                        <div class="tab-content">
+                            <!-- start tab content -->
+                            <div id="tab6_sec1" class="center-col tab-pane fade in active"> 
+                                <div class="tab-pane fade in">
+                                    <div class="equalize sm-equalize-auto">
+                                        <div class="col-md-4 col-sm-12 col-xs-12 text-left sm-margin-30px-bottom">
+                                            <img src="images/services/1-discussion.jpg" alt=""/>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12 col-xs-12 text-left sm-margin-30px-bottom">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom display-block text-extra-dark-gray">01. Discussion</span>
+                                                    <span class="alt-font text-medium-gray text-medium">We always initiate our projects by engaging our clients to fully understand what their needs and targets are.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-sm-12 col-xs-12 text-left">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-extra-dark-gray alt-font margin-10px-bottom display-inline-block text-medium">Don’t worry, You are in safe hands.</span>
+                                                    <p>At LoftyInc we believe that making the world a better place means finding solutions that work, and scaling them to maximize progress.</p>
+                                                    <a href="about.html" class="btn btn-dark-gray btn-very-small text-extra-small">More About Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div id="tab6_sec2" class="center-col tab-pane fade in"> 
+                                <div class="tab-pane fade in"> 
+                                    <div class="equalize sm-equalize-auto">
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <img src="images/services/2-strategy.jpg" alt=""/>
+                                        </div>
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom display-block text-extra-dark-gray">02. Strategy</span>
+                                                    <span class="alt-font text-medium-gray text-medium">Once we’ve discovered our clients' needs, next is to create a framework around how best to launch the project.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-left">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-extra-dark-gray alt-font margin-10px-bottom display-inline-block text-medium">Back to the drawing board</span>
+                                                    <p>This is where we’ll set your 'Key Perfomance Indicators', define their objectives and timelines and compare them against their budget.</p>
+                                                    <a href="contact.html" class="btn btn-dark-gray btn-very-small text-extra-small">Contact Us</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div id="tab6_sec3" class="center-col tab-pane fade in"> 
+                                <div class="tab-pane fade in"> 
+                                    <div class="equalize sm-equalize-auto">
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <img src="images/services/3-execution.jpg" alt=""/>
+                                        </div>
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom display-block text-extra-dark-gray">03. Execution</span>
+                                                    <span class="alt-font text-medium-gray text-medium">Now that you have established a robust strategy, the next line of cation is to get the ball rolling by allocating respective tasks to the appropriate team.</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-left">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-extra-dark-gray alt-font margin-10px-bottom display-inline-block text-medium">Don't fret!</span>
+                                                    <p>In our quest to drive innovation and social impact, over the years, we have partnered with amazing organizations.</p>
+                                                    <a href="index.html#ourclients" class="btn btn-dark-gray btn-very-small text-extra-small">Our Clients</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                            <!-- start tab content -->
+                            <div id="tab6_sec4" class="center-col tab-pane fade in"> 
+                                <div class="tab-pane fade in"> 
+                                    <div class="equalize sm-equalize-auto">
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <img src="images/services/4-client.jpg" alt=""/>
+                                        </div>
+                                        <div class="col-md-4 text-left sm-margin-30px-bottom">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 border-all border-width-2 border-color-extra-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-medium font-weight-600 alt-font text-uppercase margin-10px-bottom display-block text-extra-dark-gray">04. Happy Client</span>
+                                                    <span class="alt-font text-medium-gray text-medium">Even after we are done with the project we don’t give ourself a pat on the back. -- Well, at least not yet;</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 text-left">
+                                            <div class="position-relative padding-45px-all sm-padding-30px-all height-100 width-100 bg-light-gray display-table">
+                                                <div class="display-table-cell vertical-align-middle">
+                                                    <span class="text-extra-dark-gray alt-font margin-10px-bottom display-inline-block text-medium">We relive the process</span>
+                                                    <p>We then look for ways to improve and evaluate whether project objectives were met, and how effectively</p>
+                                                    <a href="about-us-classic.html" class="btn btn-dark-gray btn-very-small text-extra-small">Our Portfolio</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- end tab content -->
+                        </div>
+                        <!-- end tab content -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end tab style 03 section -->
+        
+        
+        
+        <!-- start footer --> 
+        <footer class="footer-standard-dark bg-extra-dark-gray"> 
+            <div class="footer-widget-area padding-five-tb xs-padding-30px-tb">
+                <div class="container">
+                    <div class="row equalize xs-equalize-auto">
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                            <!-- start logo -->
+                            <a href="index.html" class="margin-20px-bottom display-inline-block"><img class="footer-logo" src="images/logo.png" data-rjs="images/clients/logo.png" alt="Pofo"></a>
+                            <!-- end logo -->
+                            <p class="text-small width-95 xs-width-100" style="margin: 0px; padding-bottom: 15px;">LoftyInc is an Innovation development company with vast experience in Business and Project development.</p>
+                            <!-- start social media -->
+                            <div class="social-icon-style-8 display-inline-block vertical-align-middle">
+                                <ul class="small-icon no-margin-bottom">
+                                    <li><a class="facebook text-white" href="https://www.facebook.com/loftyinc" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                                    <li><a class="twitter text-white" href="https://twitter.com/_LoftyInc_" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a class="instagram text-white" href="https://www.instagram.com/lofty_inc/" target="_blank"><i class="fab fa-instagram no-margin-right" aria-hidden="true"></i></a></li>
+                                    <li><a class="linkedin text-white" href="https://www.linkedin.com/company/loftyinc-allied-partners-limited/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- end social media -->
+                        </div>
+                        <!-- start additional links -->
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Navigation Links</div>
+                            <ul class="list-unstyled">
+                                <li><a class="text-small" href="index.html">Home</a></li>
+                                <li><a class="text-small" href="about.html">About Us</a></li>
+                                <li><a class="text-small" href="services.html">Our Services</a></li>
+                                <li><a class="text-small" href="portfolio.html">Recent Projects</a></li>
+                                <li><a class="text-small" href="blog.html">Latest News</a></li>
+                                <li><a class="text-small" href="blog.html">Gallery</a></li>
+                                <li><a class="text-small" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <!-- end additional links -->
+                        
+                        <!-- start additional links -->
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-no-border-right sm-margin-30px-bottom xs-text-center">
+                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Additional Links</div>
+                            <ul class="list-unstyled">
+                                <li><a class="text-small" href="#">Careers</a></li>
+                                <li><a class="text-small" href="LAPL-Profile-Web.pdf" target="_blank">Download Our Profile</a></li>
+                                <li><a class="text-small" href="https://medium.com/search?q=loftyinc" target="_blank">Visit Us on Medium®</a></li>
+                                <li><a class="text-small" href="https://www.youtube.com/channel/UCq3zEfcz9IDpVd_5fcDMFMw" target="_blank">Watch Our Events On YouTube®</a></li>
+                                <li><a class="text-small" href="https://loftyinccapital.vc/" target="_blank">LoftyInc Capital Management</a></li>
+                                <li><a class="text-small" href="http://vertmance.com/" target="_blank">Vertmance (Group) Resources</a></li>
+                                <li><a class="text-small" href="http://wennovationhub.org/" target="_blank">Wennovation Hub</a></li>
+                            </ul>
+                        </div>
+                        <!-- end additional links -->
+                        
+                        <!-- start contact information -->
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget border-right border-color-medium-dark-gray padding-45px-left sm-padding-15px-left sm-clear-both sm-no-border-right  xs-margin-30px-bottom xs-text-center">
+                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-10px-bottom font-weight-600">Contact Info</div>
+                            <p class="text-small display-block margin-15px-bottom width-80 xs-center-col"><strong>LAGOS: </strong>Suite 103 (Plot 8), Lateef Jakande Road, Agindigbi, Lagos.</p>
+                            <p class="text-small display-block margin-15px-bottom width-80 xs-center-col"><strong>ABUJA: </strong>2nd Floor, Bright Star Plaza 50, Ebitu Ukiwe Street, Jabi,Abuja, FCT.</p>
+                            <div class="text-small">Email: <a href="mailto:info@loftyincltd.biz">info@loftyincltd.biz</a></div>
+                            <div class="text-small">Phone: <a href="tel:+23409090002647" target="_blank">0909 000 2647</a></div>
+                            <!---<a href="contact-us-modern.html" class="text-small text-uppercase text-decoration-underline">View Direction</a>-->
+                        </div>
+                        <!-- end contact information -->
+                        <!-- start instagram --
+                        <div class="col-md-3 col-sm-6 col-xs-12 widget padding-45px-left sm-padding-15px-left xs-text-center">
+                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600">Instagram portfolio</div>
+                            <div class="instagram-follow-api">
+                                <ul id="instaFeed-footer"></ul>
+                            </div>
+                        </div>
+                        <!-- end instagram -->
+                    </div>
+                </div>
+            </div>
+            <div class="bg-dark-footer padding-50px-tb text-center xs-padding-30px-tb">
+                <div class="container">
+                    <div class="row">
+                        <!-- start copyright -->
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-left text-small xs-text-center">&copy;<script>document.write(new Date().getFullYear());</script> All Rights Reserved ||<a href="http://estechnologies.ng" target="_blank" class="text-dark-gray"> Loftyinc Allied Partners ltd. </a></div>
+                        <div class="col-md-6 col-sm-6 col-xs-12 text-right text-small xs-text-center">
+                            <a href="javascript:void(0);" class="text-dark-gray">Terms and Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="javascript:void(0);" class="text-dark-gray">Privacy Policy</a>
+                        </div>
+                        <!-- end copyright -->
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+        
+        
+        <!-- start scroll to top -->
+        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+        <!-- end scroll to top  -->
+        <!-- javascript libraries -->
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/modernizr.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script type="text/javascript" src="js/smooth-scroll.js"></script>
+        <script type="text/javascript" src="js/jquery.appear.js"></script>
+        <!-- menu navigation -->
+        <script type="text/javascript" src="js/bootsnav.js"></script>
+        <script type="text/javascript" src="js/jquery.nav.js"></script>
+        <!-- animation -->
+        <script type="text/javascript" src="js/wow.min.js"></script>
+        <!-- page scroll -->
+        <script type="text/javascript" src="js/page-scroll.js"></script>
+        <!-- swiper carousel -->
+        <script type="text/javascript" src="js/swiper.min.js"></script>
+        <!-- counter -->
+        <script type="text/javascript" src="js/jquery.count-to.js"></script>
+        <!-- parallax -->
+        <script type="text/javascript" src="js/jquery.stellar.js"></script>
+        <!-- magnific popup -->
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+        <!-- portfolio with shorting tab -->
+        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+        <!-- images loaded -->
+        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+        <!-- pull menu -->
+        <script type="text/javascript" src="js/classie.js"></script>
+        <script type="text/javascript" src="js/hamburger-menu.js"></script>
+        <!-- counter  -->
+        <script type="text/javascript" src="js/counter.js"></script>
+        <!-- fit video  -->
+        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+        <!-- equalize -->
+        <script type="text/javascript" src="js/equalize.min.js"></script>
+        <!-- skill bars  -->
+        <script type="text/javascript" src="js/skill.bars.jquery.js"></script> 
+        <!-- justified gallery  -->
+        <script type="text/javascript" src="js/justified-gallery.min.js"></script>
+        <!--pie chart-->
+        <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+        <!-- instagram -->
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
+        <!-- retina -->
+        <script type="text/javascript" src="js/retina.min.js"></script>
+        <!-- revolution -->
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+        <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+        <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+        <!-- setting -->
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
